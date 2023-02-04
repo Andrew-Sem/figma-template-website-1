@@ -9,9 +9,11 @@ export default function RootLayout({
     return (
         <html lang="en">
         <head/>
-        <body>
+        <body className={"font-base"}>
         <Header/>
+        <main className={"container mx-auto"}>
         {children}
+        </main>
         </body>
         </html>
     )
