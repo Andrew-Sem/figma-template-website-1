@@ -11,9 +11,7 @@ export default function RootLayout({
         <head/>
         <body className={"font-base"}>
         <Header/>
-        <main className={"container mx-auto"}>
         {children}
-        </main>
         </body>
         </html>
     )
